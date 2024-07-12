@@ -1,4 +1,19 @@
 #!/bin/bash
+echo "提示: 此脚本将升级/降级本机nezha-agent至v0.16.11版本，并禁用自动升级功能。"
+read -p "是否继续? (y/n): " choice
+case "$choice" in 
+  y|Y ) 
+    echo "继续执行脚本..."
+    ;;
+  n|N ) 
+    echo "脚本已退出。"
+    exit 0
+    ;;
+  * ) 
+    echo "无效输入，脚本已退出。"
+    exit 1
+    ;;
+esac
 cd ~
 wget https://github.com/nezhahq/agent/releases/download/v0.16.11/nezha-agent_linux_amd64.zip
 unzip nezha-agent_linux_amd64.zip
