@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "提示: 此脚本将升级/降级本机nezha-agent至v0.16.11版本，并禁用自动升级功能。"
+echo "提示: 此脚本将升级/降级本机nezha-agent至v0.17.06版本（最后一个Websocket-WebShell版本，适配dashboard < v0.17.09），并禁用自动升级功能。"
 read -p "是否继续? (y/n): " choice
 case "$choice" in 
   y|Y ) 
@@ -15,7 +15,7 @@ case "$choice" in
     ;;
 esac
 cd ~
-wget https://github.com/nezhahq/agent/releases/download/v0.16.11/nezha-agent_linux_amd64.zip
+wget https://github.com/nezhahq/agent/releases/download/v0.17.06/nezha-agent_linux_amd64.zip
 unzip nezha-agent_linux_amd64.zip
 if command -v systemctl > /dev/null 2>&1; then
     systemctl stop nezha-agent
