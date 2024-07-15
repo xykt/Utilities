@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "提示: 此脚本将升级/降级本机nezha-agent至v0.17.06版本（最后一个Websocket-WebShell版本，适配dashboard < v0.17.09），并禁用自动升级功能。"
+echo "提示: 此脚本将升级/降级本机nezha-agent至v0.17.06版本（最后一个Websocket-WebShell版本，适配dashboard≤v0.17.09），并禁用自动升级功能。"
 read -p "是否继续? (y/n): " choice
 case "$choice" in 
   y|Y ) 
