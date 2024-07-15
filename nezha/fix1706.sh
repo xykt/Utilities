@@ -15,7 +15,7 @@ case "$choice" in
     ;;
 esac
 cd ~
-wget https://github.com/nezhahq/agent/releases/download/v0.17.06/nezha-agent_linux_amd64.zip
+wget https://github.com/nezhahq/agent/releases/download/v0.17.6/nezha-agent_linux_amd64.zip
 unzip nezha-agent_linux_amd64.zip
 if command -v systemctl > /dev/null 2>&1; then
     systemctl stop nezha-agent
