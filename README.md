@@ -19,3 +19,7 @@ bash <(curl -s https://raw.githubusercontent.com/xykt/Utilities/main/nezha/noupg
 ```
 bash <(curl -s https://raw.githubusercontent.com/xykt/Utilities/main/nezha/fix1706.sh)
 ```
+#### 禁用nezha-agent的Webshell
+```
+bash <(curl -s https://raw.githubusercontent.com/xykt/Utilities/main/nezha/nowebshell.sh)
+```
