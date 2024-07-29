@@ -15,8 +15,21 @@ case "$choice" in
     ;;
 esac
 cd ~
-wget https://github.com/nezhahq/agent/releases/download/v0.17.6/nezha-agent_linux_amd64.zip
-unzip nezha-agent_linux_amd64.zip
+ARCH=$(uname -m)
+case "$ARCH" in
+    x86_64)
+        ARCH="amd64"
+        ;;
+    aarch64)
+        ARCH="arm64"
+        ;;
+    *)
+        echo "Unsupported architecture: $ARCH"
+        exit 1
+        ;;
+esac
+wget https://github.com/nezhahq/agent/releases/download/v0.17.6/nezha-agent_linux_$ARCH.zip -O nezha-agent.zip
+unzip nezha-agent.zip
 if command -v systemctl > /dev/null 2>&1; then
     systemctl stop nezha-agent
     cp nezha-agent /opt/nezha/agent
@@ -33,5 +46,5 @@ else
     echo "Unsupported init system"
     exit 1
 fi
-rm nezha-agent_linux_amd64.zip
+rm nezha-agent.zip
 rm nezha-agent
