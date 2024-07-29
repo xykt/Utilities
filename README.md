@@ -15,9 +15,13 @@ bash <(curl -s https://raw.githubusercontent.com/xykt/Utilities/main/nezha/ipv6f
 ```
 bash <(curl -s https://raw.githubusercontent.com/xykt/Utilities/main/nezha/noupgrade.sh)
 ```
-#### 禁用nezha-agent自动更新，并强制版本固定为v0.17.06（最后一个Websocket-WebShell版本，适配dashboard ≤ v0.17.09）
+#### 禁用nezha-agent自动更新，并强制版本固定为v0.17.6（最后一个Websocket-WebShell版本，适配dashboard ≤ v0.17.9）
 ```
 bash <(curl -s https://raw.githubusercontent.com/xykt/Utilities/main/nezha/fix1706.sh)
+```
+#### 禁用nezha-agent自动更新，并强制版本固定为v0.18.5（最后一个非内置ipgeo版本，适配dashboard ≤ v0.18.2）
+```
+bash <(curl -s https://raw.githubusercontent.com/xykt/Utilities/main/nezha/fix1805.sh)
 ```
 #### 禁用nezha-agent的Webshell
 ```
