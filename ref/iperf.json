@@ -92,8 +92,8 @@
   {
     "code": "51",
     "server": "speedtest.sao1.edgoo.net",
-    "portl": 5205,
-    "portu": 5240,
+    "portl": 9205,
+    "portu": 9240,
     "provider": "Edgoo",
     "countrycode": "BR",
     "city": "SãoPaulo",
