@@ -6,7 +6,7 @@
     "portu": 5210,
     "provider": "Leaseweb",
     "countrycode": "HK",
-    "city": "Hong Kong",
+    "city": "HongKong",
     "cityzh": "香港"
   },
   {
@@ -46,7 +46,7 @@
     "portu": 5210,
     "provider": "Leaseweb",
     "countrycode": "US",
-    "city": "Los Angeles",
+    "city": "LosAngeles",
     "cityzh": "洛杉矶"
   },
   {
@@ -56,7 +56,7 @@
     "portu": 5209,
     "provider": "Clouvider",
     "countrycode": "US",
-    "city": "New York",
+    "city": "NewYork",
     "cityzh": "纽约"
   },
   {
