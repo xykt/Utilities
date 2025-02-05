@@ -100,23 +100,23 @@
     "cityzh": "北京"
   },
   {
-    "url": "http://speedtest2.dpdfsd.com:8080/speedtest/upload.php",
-    "lat": "23.1291",
-    "lon": "113.2644",
-    "distance": 1175,
-    "name": "Guangzhou",
+    "url": "http://csfw.fj.chinamobile.com:8080/speedtest/upload.php",
+    "lat": "26.0998",
+    "lon": "119.2966",
+    "distance": 970,
+    "name": "Fujian",
     "country": "China",
     "cc": "CN",
-    "sponsor": "GuangZhou-5G",
-    "id": "60794",
+    "sponsor": "China Mobile",
+    "id": "17634",
     "preferred": 0,
     "https_functional": 1,
-    "host": "speedtest2.dpdfsd.com.prod.hosts.ooklaserver.net:8080",
+    "host": "csfw.fj.chinamobile.com.prod.hosts.ooklaserver.net:8080",
     "force_ping_select": 0,
     "code": 32,
     "provider": "CM",
     "providerzh": "移动",
-    "city": "Guangzhou",
-    "cityzh": "广州"
+    "city": "Fuzhou",
+    "cityzh": "福州"
   }
 ]
