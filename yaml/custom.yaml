@@ -1,13 +1,13 @@
 # NAME: Custom
 # AUTHOR: xykt
 # REPO: https://github.com/xykt/Utilities
-# UPDATED: 2025-04-10 23:33:00
+# UPDATED: 2025-04-11 00:03:00
 # DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 8
-# IP-CIDR: 3
+# DOMAIN-SUFFIX: 7
+# IP-CIDR: 0
 # IP-CIDR6: 0
 # PROCESS-NAME: 0
-# TOTAL: 8
+# TOTAL: 7
 payload:
   - DOMAIN-SUFFIX,nodeseek.com
   - DOMAIN-SUFFIX,hostloc.com
