@@ -1,0 +1,19 @@
+# NAME: Custom
+# AUTHOR: xykt
+# REPO: https://github.com/xykt/Utilities
+# UPDATED: 2025-04-10 23:33:00
+# DOMAIN-KEYWORD: 0
+# DOMAIN-SUFFIX: 8
+# IP-CIDR: 3
+# IP-CIDR6: 0
+# PROCESS-NAME: 0
+# TOTAL: 8
+payload:
+  - DOMAIN-SUFFIX,nodeseek.com
+  - DOMAIN-SUFFIX,hostloc.com
+  - DOMAIN-SUFFIX,hostevaluate.com
+  - DOMAIN-SUFFIX,bulianglin.com
+  - DOMAIN-SUFFIX,lowendtalk.com
+  - DOMAIN-SUFFIX,lowendspirit.com
+  - DOMAIN-SUFFIX,111666.best
+  - DOMAIN-SUFFIX,mjj.today
